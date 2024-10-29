@@ -26,6 +26,8 @@ containers:
 resources:
   dns: # We need a DNS record to point to the service 
     type: dns
+  cache:
+    type: redis
   route:
     type: route
     params:
